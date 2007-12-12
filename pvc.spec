@@ -1,6 +1,6 @@
 Name:         pvc
 Version:      3.0
-Release:      1mdk
+Release:      %mkrel 1
 
 Summary:      Stereo LADSPA effects rack for the JACK audio API
 License:      GPL
