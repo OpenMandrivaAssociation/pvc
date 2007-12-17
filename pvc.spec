@@ -9,7 +9,6 @@ URL:          http://www.music.princeton.edu/winham/PPSK/koonce.html
 
 Source0:      PVC-%{version}-linux.tar.gz
 Patch0:       PVC-3.0-fileio.patch.bz2
-BuildRoot:    %{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 PVC is a collection of phase vocoder signal processing routines and
