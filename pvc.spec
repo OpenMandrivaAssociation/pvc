@@ -41,3 +41,35 @@ rm -rf $RPM_BUILD_ROOT
 %doc README HTML/*
 %{_bindir}/*
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 3.0-5mdv2010.0
++ Revision: 430813
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tvignaud@mandriva.com> 3.0-4mdv2009.0
++ Revision: 259365
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tvignaud@mandriva.com> 3.0-3mdv2009.0
++ Revision: 247243
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 3.0-1mdv2008.1
++ Revision: 125747
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import pvc
+
+
+* Mon Oct 13 2003 Austin Acton <aacton@yorku.ca> 3.0-1mdk
+- CCRMA goes Mandrake!
+
+* Mon Feb 24 2003 Fernando Lopez-Lezcano <nando@ccrma.stanford.edu> 3.0-1
+- initial build
+- had to rename "filter" to "pvcfilter" (7.2/7.3 conflict with cleanfeed
+  package (spam filter for net news)
