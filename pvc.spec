@@ -5,7 +5,7 @@ Release:      6
 Summary:      Stereo LADSPA effects rack for the JACK audio API
 License:      GPL
 Group:        Sound
-URL:          http://www.music.princeton.edu/winham/PPSK/koonce.html
+URL:          https://www.music.princeton.edu/winham/PPSK/koonce.html
 
 Source0:      PVC-%{version}-linux.tar.gz
 Patch0:       PVC-3.0-fileio.patch.bz2
