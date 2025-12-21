@@ -11,6 +11,7 @@ Source0:      PVC-%{version}-linux.tar.gz
 Patch0:       PVC-3.0-fileio.patch.bz2
 BuildRoot:    %{_tmppath}/%{name}-%{version}-buildroot
 
+BuildRequires:	make
 %description
 PVC is a collection of phase vocoder signal processing routines and
 accompanying shell scripts for use in the transformation and
